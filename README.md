@@ -35,7 +35,10 @@ Masuk ke folder dengan perintah
 ```bash
     php artisan storage:link
 ```
-
+- KALAU INSTALL COMPOSER ERROR!!
+```bash
+    composer install --ignore-platform-req=ext-gd
+```
 #### Login
 
 -   email = admin@admin.com
