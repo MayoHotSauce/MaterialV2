@@ -47,7 +47,7 @@
                                 <ul>
                                     <li><a href="/">home</a>
                                         <ul class="single-dropdown">
-                                            <li><a href="index.html">Fashion</a></li>
+                                            <li><a href="index">Fashion</a></li>
                                             <li><a href="index-fashion-2.html">Fashion style 2</a></li>
                                             <li><a href="index-fruits.html">fruits</a></li>
                                             <li><a href="index-book.html">book</a></li>
@@ -62,13 +62,13 @@
                                     </li>
                                     <li><a href="#">pages</a>
                                         <ul class="single-dropdown">
-                                            <li><a href="about-us.html">about us</a></li>
+                                            <li><a href="about-us">about us</a></li>
                                             <li><a href="menu-list.html">menu list</a></li>
-                                            <li><a href="login.html">login</a></li>
-                                            <li><a href="register.html">register</a></li>
-                                            <li><a href="cart.html">cart page</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
+                                            <li><a href="login">login</a></li>
+                                            <li><a href="register">register</a></li>
+                                            <li><a href="cart">cart page</a></li>
+                                            <li><a href="checkout">checkout</a></li>
+                                            <li><a href="wishlist">wishlist</a></li>
                                             <li><a href="contact.html">contact</a></li>
                                         </ul>
                                     </li>
