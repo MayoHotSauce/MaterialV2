@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('themes/ezone/assets/img/favicon.png') }}">
-		
+
 		<!-- all css here -->
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('themes/ezone/assets/css/magnific-popup.css') }}">
@@ -226,7 +226,7 @@
                                         </li>
                                         <li><a href="contact.html"> Contact  </a></li>
                                     </ul>
-                                </nav>							
+                                </nav>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                                     <li>Get Access: <a href="{{ url('login') }}">Login</a></li>
                                     <li><a href="{{ url('register') }}">Register</a></li>
                                 @else
-                                    <li>Hello: <a href="{{ url('profile') }}">{{ Auth::user()->first_name }}</a></li>
+                                    <li>Hai : <a href="{{ url('profile') }}">{{ Auth::user()->first_name }}</a></li>
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                     document.getElementById('logout-form').submit();">
@@ -272,9 +272,9 @@
             </div>
         </header>
         <!-- end -->
-        
+
         @yield('content')
-       
+
         <!-- services -->
         <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
             <div class="container-fluid">
@@ -285,7 +285,7 @@
                         </div>
                         <div class="services-content">
                             <h4>Free Shippig</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>Gratis Ongkir Untuk Pembelian Pertama </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -294,7 +294,7 @@
                         </div>
                         <div class="services-content">
                             <h4>24/7 Support</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>Melayani Customer 24 Jam </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -303,7 +303,7 @@
                         </div>
                         <div class="services-content">
                             <h4>Secure Payments</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>Pembayaran 100% Aman </p>
                         </div>
                     </div>
                 </div>
@@ -319,7 +319,7 @@
                         <div class="footer-widget mb-30">
                             <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt=""></a>
                             <div class="footer-about-2">
-                                <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
+                                <p>Toko material dengan segala bahan     bangunan <br>bahan bahan dengan kualitas wah dijamin kokoh <br> GACORKANGGGG</p>
                             </div>
                         </div>
                         <div class="footer-widget mb-30">
@@ -330,7 +330,7 @@
                                         <span>Address: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>SMKN 1 CIAMIS</p>
+                                        <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -338,7 +338,7 @@
                                         <span>Phone: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>085314408298 <br></p>
+                                        <p>+8801 (33) 515609735 <br>+8801 (66) 223352333</p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -352,7 +352,7 @@
                             </div>
                         </div>
                         <div class="footer-widget mb-30">
-                            <h3 class="footer-widget-title-5">Newsletter</h3>
+                            <h3 class="footer-widget-title-5">Masukan</h3>
                             <div class="footer-newsletter-2">
                                 <p>Send us your mail or next updates</p>
                                 <div id="mc_embed_signup" class="subscribe-form-5">
@@ -375,7 +375,7 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="copyright-furniture">
-                                <p>Copyright © <a href="https://hastech.company/">material ciamis</a> 2024 .</p>
+                                <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
                             </div>
                         </div>
                     </div>
@@ -534,7 +534,7 @@
         </div>
         <!-- end -->
 
-		
+
 		<!-- all js here -->
         <script src="{{ asset('themes/ezone/assets/js/vendor/jquery-1.12.0.min.js') }}"></script>
         <script src="{{ asset('themes/ezone/assets/js/popper.js') }}"></script>
