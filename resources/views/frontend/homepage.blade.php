@@ -28,14 +28,14 @@
 	<div class="popular-product-area wrapper-padding-3 pt-115 pb-115">
 		<div class="container-fluid">
 			<div class="section-title-6 text-center mb-50">
-				<h2>Popular Product</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+				<h2>Produk Material</h2>
+				<p>Bahan Bahan dan Alat bangunan rumah</p>
 			</div>
 			<div class="product-style">
 				<div class="popular-product-active owl-carousel">
 					@foreach ($products as $product)
 						@php
-							$product = $product->parent ?: $product;	
+							$product = $product->parent ?: $product;
 						@endphp
 						<div class="product-wrapper">
 							<div class="product-img">
@@ -69,7 +69,7 @@
 		</div>
 	</div>
 
-       
+
 	<!-- product area end -->
 @endif
     <!-- end -->
