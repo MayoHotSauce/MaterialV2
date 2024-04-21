@@ -46,19 +46,7 @@
                             <nav>
                                 <ul>
                                     <li><a href="/">home</a>
-                                        <ul class="single-dropdown">
-                                            <li><a href="index">Fashion</a></li>
-                                            <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                                            <li><a href="index-fruits.html">fruits</a></li>
-                                            <li><a href="index-book.html">book</a></li>
-                                            <li><a href="index-electronics.html">electronics</a></li>
-                                            <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                                            <li><a href="index-food.html">food & drink</a></li>
-                                            <li><a href="index-furniture.html">furniture</a></li>
-                                            <li><a href="index-handicraft.html">handicraft</a></li>
-                                            <li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
-                                            <li><a href="index-sports.html">sports</a></li>
-                                        </ul>
+                                        
                                     </li>
                                     <li><a href="#">pages</a>
                                         <ul class="single-dropdown">
@@ -330,7 +318,7 @@
                                         <span>Address: </span>
                                     </div>
                                     <div class="footer-info-content3">
-                                        <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
+                                        <p>SMKN 1 CIAMIS <br></p>
                                     </div>
                                 </div>
                                 <div class="footer-address-furniture">
@@ -375,7 +363,7 @@
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="copyright-furniture">
-                                <p>Copyright © <a href="https://hastech.company/">HasTech</a> 2018 . All Right Reserved.</p>
+                                <p>Copyright © <a href="https://hastech.company/">Material</a> 2024 . All Right Reserved.</p>
                             </div>
                         </div>
                     </div>
