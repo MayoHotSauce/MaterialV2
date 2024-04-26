@@ -79,7 +79,17 @@
 		margin-left: 900px;
 		margin-top: -485px;
 	}
+    .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <!-- slider -->
         <div class="slider-area">
             <div class="slider-active owl-carousel">
@@ -110,8 +120,33 @@
 				<h2>Produk Material</h2>
 				<p>Bahan Bahan dan Alat bangunan rumah</p>
 			</div>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <img src="{{ asset('themes/ezone/assets/img/logo/avi (1).jpg') }}" class="d-block w-30" alt="Gambar 1" style="height:500px;">
+      </div>
+      <div class="carousel-item">
+      <img src="{{ asset('themes/ezone/assets/img/logo/kayu.jpg') }}" class="d-block w-30" alt="Gambar 2" style="height:500px;">
+      </div>
+      <div class="carousel-item">
+      <img src="{{ asset('themes/ezone/assets/img/logo/avi (1).jpg') }}" class="d-block w-100" alt="Gambar 3" style="height:500px;">
+      </div>
+      <!-- Tambahkan gambar sesuai kebutuhan -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+            <div class="container">
+  
 			<div class="card">
-        <img src="{{ asset('themes/ezone/assets/img/logo/kayu.jpg') }}" alt="Gambar Produk">
+        <img src="{{ asset('themes/ezone/assets/img/logo/avi (1).jpg') }}" alt="Gambar Produk">
         <div class="card-content">
             <div class="product-name">Nama Produk</div>
             <div class="product-description">Deskripsi singkat produk di sini.</div>
@@ -122,9 +157,9 @@
             </div>
         </div>
     </div>
-	<div  style ="margin-left: 450px; margin-top: -490px;"class="p2">
+	<div  style ="margin-left: 450px; margin-top: -570px;"class="p2">
 	<div class="card">
-        <img src="{{ asset('themes/ezone/assets/img/logo/kayu.jpg') }}" alt="Gambar Produk">
+        <img src="{{ asset('themes/ezone/assets/img/logo/dulux (1).jpg') }}" alt="Gambar Produk">
         <div class="card-content">
             <div class="product-name">Nama Produk</div>
             <div class="product-description">Deskripsi singkat produk di sini.</div>
@@ -136,9 +171,9 @@
         </div>
     </div>
 </div>
-	<div class="p1">
+	<div style="margin-top:-550px;"class="p1">
 	<div class="card">
-        <img src="{{ asset('themes/ezone/assets/img/logo/kayu.jpg') }}" alt="Gambar Produk" >
+        <img src="{{ asset('themes/ezone/assets/img/logo/decol (1).jpg') }}" alt="Gambar Produk" >
         <div class="card-content">
             <div class="product-name">Nama Produk</div>
             <div class="product-description">Deskripsi singkat produk di sini.</div>
@@ -156,7 +191,7 @@
     </div>
     </div>
     </div>
-	<br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 			<div class="product-style">
 				<div class="popular-product-active owl-carousel">
 					@foreach ($products as $product)
@@ -194,6 +229,9 @@
 			</div>
 		</div>
 	</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 	<!-- product area end -->

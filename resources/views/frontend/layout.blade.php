@@ -39,7 +39,7 @@
                     <div class="header-bottom-wrapper">
                         <div class="logo-2 furniture-logo ptb-30">
                             <a href="/">
-                                <img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt="">
+                                <img src="{{ asset('themes/ezone/assets/img/logo/logoooo.png') }}" alt="" style="width: 150px; height: 100px;">
                             </a>
                         </div>
                         <div class="menu-style-2 furniture-menu menu-hover">
@@ -106,7 +106,7 @@
                                             <li><a href="blog-details-sidebar.html">blog details 2</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a href="{{route('contact')}}">contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -212,7 +212,7 @@
                                                 <li><a href="blog-details-sidebar.html">blog details 2</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html"> Contact  </a></li>
+                                        <!-- <li><a href="{{route('contact')}}">Contact</a></li> -->
                                     </ul>
                                 </nav>
                             </div>
@@ -305,7 +305,7 @@
                 <div class="container-fluid">
                     <div class="widget-wrapper">
                         <div class="footer-widget mb-30">
-                            <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/2.png') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('themes/ezone/assets/img/logo/logoooo.png') }}" alt="" style="width: 150px; height: 100px;">
                             <div class="footer-about-2">
                                 <p>Toko material dengan segala bahan     bangunan <br>bahan bahan dengan kualitas wah dijamin kokoh <br> GACORKANGGGG</p>
                             </div>

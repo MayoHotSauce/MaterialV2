@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend\WishListController;
 
 /*
 |--------------------------------------------------------------------------
@@ -78,3 +79,4 @@ Route::post('payments/notification', [\App\Http\Controllers\Frontend\PaymentCont
 Route::get('payments/completed', [\App\Http\Controllers\Frontend\PaymentController::class, 'completed']);
 Route::get('payments/failed', [\App\Http\Controllers\Frontend\PaymentController::class, 'failed']);
 Route::get('payments/unfinish', [\App\Http\Controllers\Frontend\PaymentController::class, 'unfinish']);
+Route::get('contact',[WishListController::class, 'contact'])->name('contact');

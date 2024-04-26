@@ -7,8 +7,14 @@ use App\Models\WishList;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+
+
 class WishListController extends Controller
 {
+    public function contact()
+    {
+        return redirect('wishlists.contact');
+    }
     /**
      * Display a listing of the resource.
      */
